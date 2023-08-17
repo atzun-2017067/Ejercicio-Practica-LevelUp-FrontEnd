@@ -1,0 +1,34 @@
+.navFooter2 {
+    background: linear-gradient(to right, #D7880E, #FFD136) !important;
+}
+
+.btn-cerrar-sesion {
+    display: inline-block;
+    padding: 8px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cerrar-sesion::after {
+    content: "";
+    background: #B68D18;
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    left: -50%;
+    right: -50%;
+    top: -150%;
+    bottom: -150%;
+    transform: scale(0, 0);
+    transition: all 0.4s ease;
+}
+
+.btn-cerrar-sesion:hover::after {
+    transition: all 0.6s ease-out;
+    transform: scale(1, 1);
+}

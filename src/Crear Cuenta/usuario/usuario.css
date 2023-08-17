@@ -1,0 +1,38 @@
+.vista {
+    margin-top: 50px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.agregar {
+    margin-bottom: 5px;
+}
+
+.btn-ver {
+    background-color: #56A3C0;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.btn-ver:hover {
+    background-color: #1E5C73;
+    /* Cambia el color a tu preferencia */
+    color: white;
+    /* Agrega otros estilos según sea necesario */
+}
+
+.editar{
+    margin-bottom: 8px;
+}
+
+.enviar {
+    margin-top: 10px;
+    margin-inline: 10px;
+}
+
+.cancelar{
+    margin-top: 10px;
+    margin-inline: 10px;
+}

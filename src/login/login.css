@@ -1,0 +1,303 @@
+/* ---- NavBar ---- */
+.navColor1 {
+  background: linear-gradient(to right, #1E5799, #23CEDE) !important;
+}
+
+.btn-login:hover {
+  color: #fff;
+}
+
+.btn-login {
+  padding: 10px 20px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn-login::after {
+  content: "";
+  background: #23656F;
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  left: -50%;
+  right: -50%;
+  top: -150%;
+  bottom: -150%;
+  transform: scale(0, 0);
+  transition: all 0.4s ease;
+}
+
+.btn-login:hover::after {
+  transition: all 0.6s ease-out;
+  transform: scale(1, 1);
+}
+
+/* ---- Footer ---- */
+.pie-pagina {
+  margin-top: auto;
+  background:  #0E4B4F !important;
+  padding: 10px;
+}
+
+.pie-pagina .texto-1 {
+  width: 1005;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.pie-pagina .texto-1 .textoFooter figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie-pagina .texto-1 .textoFooter figure img {
+  width: 230px;
+}
+
+.pie-pagina .texto-1 .textoFooter figure .trabajo {
+  width: 280px;
+}
+
+.pie-pagina .texto-1 .textoFooter h2 {
+  color: white;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.pie-pagina .texto-1 .textoFooter p {
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.pie-pagina .texto-1 .textoFooter .h2-ubi {
+  text-align: center;
+  width: auto;
+}
+
+.pie-pagina .texto-1 .textoFooter .h2-contacto {
+  text-align: center;
+}
+
+.pie-pagina .derechos {
+  padding: 15px 10pc;
+  text-align: center;
+  color: white;
+}
+
+.hr-footer {
+  color: white;
+}
+
+/* ---- Carousel ---- */
+.fixed-height {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  height: 600px;
+  /* Establece la altura deseada */
+  object-fit: cover;
+  /* Ajusta la imagen para que se ajuste al tamaño sin deformarla */
+}
+
+.carousel{
+  background: linear-gradient(to right, #1E5799, #88C5CA)
+}
+
+/* ---- Card ---- */
+.card-principal{
+  background: linear-gradient(to right, #1E5799, #88C5CA);
+}
+
+.card-container {
+  height: 475px; /* Altura fija para las cards */
+}
+
+.texto-card{
+  text-align: center;
+}
+
+.social-icon {
+  margin-right: 10px; /* Puedes ajustar el valor según el espacio deseado */
+}
+
+/* Colores para los íconos de las redes sociales */
+.facebook-icon {
+  color: #3b5998; /* Azul de Facebook */
+}
+
+.twitter-icon {
+  color: #1da1f2; /* Azul de Twitter */
+}
+
+.whatsapp-icon {
+  color: #25d366; /* Verde de WhatsApp */
+}
+
+/* Login */
+
+.custom-dot-list-style {
+  text-align: center;
+}
+
+.custom-dot-list-style li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.custom-dot-list-style li button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  border: none;
+  padding: 0;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.custom-dot-list-style li button:hover {
+  opacity: 1;
+}
+
+.custom-dot-list-style li.active button {
+  background-color: #555;
+  opacity: 1;
+}
+
+.login-container {
+  display: grid;
+  height: 92.7vh;
+  width: 100vw;
+}
+
+.vertical-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  background: linear-gradient(to top, #1E5799, #23CEDE) !important;
+}
+
+.navFooter1 {
+  background: linear-gradient(to left, #E7BF94, #276EBF) !important;
+
+}
+
+
+.ov-btn-grow-ellipse {
+  padding: 10px 20px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.ov-btn-grow-ellipse::after {
+  content: "";
+  background: #B98930;
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  left: -50%;
+  right: -50%;
+  top: -150%;
+  bottom: -150%;
+  transform: scale(0, 0);
+  transition: all 0.4s ease;
+}
+
+.ov-btn-grow-ellipse:hover::after {
+  transition: all 0.6s ease-out;
+  transform: scale(1, 1);
+}
+
+
+
+.footerLogin {
+  background-color: #229954 !important;
+}
+
+.logo-container img {
+  max-width: 400px;
+}
+
+/* Estilos para el contenedor del mapa */
+.map-container {
+  height: 300px; /* Altura inicial del mapa */
+  width: 100%; /* Ancho del mapa al 100% del contenedor */
+}
+
+/* Estilos para hacer el mapa responsive en diferentes tamaños de pantalla */
+@media screen and (max-width: 768px) {
+  .map-container {
+      height: 200px; /* Altura del mapa en pantallas pequeñas */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .map-container {
+      height: 150px; /* Altura del mapa en pantallas muy pequeñas */
+  }
+}
+
+
+
+html,
+body {
+  height: 100%;
+  font-family: "Cabin", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: #111111;
+  font-weight: 400;
+  font-family: "Lora", serif;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Segoe UI Black';
+}
